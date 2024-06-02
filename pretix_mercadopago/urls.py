@@ -1,4 +1,4 @@
-from django.conf.urls import include, url
+from django.urls import include, re_path as url
 import pretix_mercadopago.views as views
 
 from pretix.multidomain import event_url
