@@ -1,5 +1,6 @@
 from django.utils.functional import cached_property
 from django.utils.translation import gettext_lazy
+from . import __version__
 
 try:
     from pretix.base.plugins import PluginConfig
